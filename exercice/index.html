@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Entête principale */
+        .entete {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Logo à gauche, navigation à droite */
+            background-color: #ddd4d4;
+            padding: 10px 20px;
+        }
+        .hero{
+            width: 100%;
+            height: 400px;
+            background-image: url(/exercice/image/fond-d-ecran-mars-2025-pc-3.png);
+            background-size: cover;
+            border: 4px solid black;
+            border-radius: 40px;
+        
+        }
+
+        /* Logo */
+        .logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+       .tcherry{
+        text-align: center;
+
+       }
+       .information{
+        height: 500px;
+        width: 100%;
+        
+       }
+       .techno{
+width: 500px;
+padding: 20px;
+border: 1px solid green;
+border-left: 4px solid green;
+border-radius: 10px;
+margin: 10px;
+
+
+       }
+
+
+        /* Navigation */
+        .navigation {
+            display: flex;
+            gap: 20px; /* Espacement entre les liens */
+        }
+
+        .navigation a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .objectif{
+            display: flex;
+            padding: 20px;
+            padding-right: 40px;
+            border: 1px solid green;
+            border-radius: 20px;
+    
+
+        }
+
+        .navigation a:hover {
+            background-color: hsl(0, 20%, 99%);
+        }
+
+        .navigation a.active {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="entete">
+        <img src="/exercice/image/e46fb3d604e8559da6d2ecca5f0c7e17.jpg" alt="logo" class="logo">
+        <nav class="navigation">
+            <a href="#index" class="active">Accueil</a>
+            <a href="#about">À propos</a> 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+    <h2 class="tcherry">Ma Page HTML Pour Tous</h2>
+    </div>
+    <div class="information">
+        <h2>Ma page html vous permet de mettre en pratique les concepts fondamentaux d html a travers une serie d exercice .</h2>
+        <div class="objectif">
+        <div class="techno">
+            <h3>L objectif de la carte mentale est de permettre aux étudients de créer une carte mentale detaillée qui récapitule les points clés.</h3>
+        </div>
+        <div class="techno">
+            <h3>HTML acronyme de HypertText Markup Language "Langage de Balisage Hypertexte"est la base de tout site web.C est une forme de langage informatique mais il ne s agit pas d un langage de programmation.</h3>
+        </div>
+        </div>
+        <div class="objectif">
+        <div class="techno">
+            <h3>HTML est un langage de balisage standard qui définit la structure et le contenu des pages web en utilisant des balises qui pécise le type de l élement integrer dans la page et comment il doit etre reconu par le navigateure.</h3>
+        </div>
+        <div class="techno">
+            <h3>Bien que le HTML soit la base de la structure et du contenu,il peut etre encore plus engonomique et interactif lorsqu il est combiné avec d autre langage tel que CSS=Cascading Style Sheets ,pour styliser les pages HTML en contolant les couleurs ,les polices ,les marges et d autres aspects visuels .</h3>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
